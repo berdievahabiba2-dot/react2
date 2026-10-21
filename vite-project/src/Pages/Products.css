@@ -1,0 +1,164 @@
+
+.prod {
+  max-width: 1200px;
+  margin: auto;
+  padding: 25px 35px;
+  font-family: Arial, sans-serif;
+  color: #222;
+  box-sizing: border-box;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.btns {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 8px;
+  border: 1px dashed #d9baff;
+  min-width: 0;
+}
+.btn button {
+  width: 100%;
+  padding: 10px 8px;
+  border: 1px solid #16834d;
+  border-radius: 20px;
+  background: white;
+  color: #16834d;
+  font-size: 11px;
+}
+.cont {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 20px;
+  align-items: start;
+  margin-top: 30px;
+}
+.card,
+.green {
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.card {
+  background: #eee;
+}
+
+.card h2,
+.green h2 {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #16834d;
+}
+
+.card img,
+.green img {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  display: block;
+}
+.green {
+  background: #16834d;
+}
+.green h2 {
+  color: white;
+}
+.icon-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 0 16px;
+}
+
+.icon-list img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+
+.bottom {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.inputs,
+.img {
+  min-width: 0;
+}
+
+.inputs input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  background: #fafafa;
+  border-radius: 20px;
+  padding: 11px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  outline: none;
+}
+
+.inputs input:focus {
+  border-color: #16834d;
+}
+
+.img > img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+
+.section {
+  margin-top: 35px;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  border: 1px dashed #d9baff;
+  box-sizing: border-box;
+  width: 70%;
+}
+
+.nav,
+.nav-green {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.nav p,
+.nav-green p {
+  margin: 0;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.nav-green p {
+  color: #16834d;
+}
